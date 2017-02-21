@@ -1,0 +1,24 @@
+ul li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.green {
+	color: green;
+}
+
+.hidden,
+.description {
+	display: none;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+li input[type="checkbox"],
+li div,
+i {
+	display: inline-block;
+	vertical-align: middle;
+}
