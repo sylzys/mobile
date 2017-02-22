@@ -55,7 +55,7 @@ Par exemple, pour la caméra:
 
     cordova plugin add org.apache.cordova.camera
 
-Vous pouvez trouver les fonctionnalités cordova ici: [https://cordova.apache.org/docs/en/latest/reference](https://cordova.apache.org/docs/en/latest/reference) dans la section Plugin APIs
+Vous pouvez trouver les fonctionnalités cordova ici: [https://cordova.apache.org/docs/en/latest](https://cordova.apache.org/docs/en/latest) dans la section Plugin APIs
 
 Une liste de plugins plus complète, créée par la communauté, est disponible ici: [hhttps://cordova.apache.org/plugins/](https://cordova.apache.org/plugins/)
 
