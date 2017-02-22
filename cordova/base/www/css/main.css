@@ -1,0 +1,24 @@
+.task {
+	cursor: pointer;
+}
+
+.green {
+	color: green;
+	font-weight: bold;
+}
+ul {
+	list-style: none;
+}
+
+[type="checkbox"] {
+	width: 20px;
+}
+.hidden {
+	display: none;
+}
+.complete {
+	text-decoration: line-through;
+}
+.description, form {
+	display: none;
+}
