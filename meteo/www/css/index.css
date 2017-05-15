@@ -1,0 +1,85 @@
+#do_not_exist {
+	cursor: pointer;
+	text-align: center;
+}
+
+#nofav {
+	display: none;
+}
+#do_not_exist:hover {
+	text-decoration: underline;
+}
+
+.remove_fav {
+	margin-left: 2em;
+    text-align: center;
+}
+.remove_fav, #cityName {
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+}
+#custom-border-radius {
+	position: fixed;
+	bottom: 0;
+	right: 2em;
+}
+#custom-border-radius a {
+	font-size: 1.5em;
+}
+#weatherType h3 {
+	margin-top: 0;
+}
+#weatherType img {
+	display: inline-block;
+	vertical-align: middle;
+}
+#dayWeather {
+	text-align: center;
+}
+#weatherInfos {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.day {
+	display: inline-block;
+	width: 29%;
+	text-align: center;
+}
+
+.day:not(last-child) {
+	margin-right: 0.7em;
+}
+
+h1 {
+	margin-top: 0;
+}
+span.min {
+	color: blue;
+}
+span.max {
+	color: red;
+}
+
+img {
+	width: 100px;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after {
+	margin-left: -15px;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after {
+	margin-top: -15px;
+}
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after, .ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+	width: 30px;
+	height: 30px;
+}

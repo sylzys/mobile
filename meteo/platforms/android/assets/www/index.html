@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TP Méteo</title>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+  <div data-role="page" id="home">
+    <div data-role="content" class="ui-content" id="main">
+      <h1 id="cityName"></h1><span class="remove_fav ui-btn ui-icon-minus ui-btn-icon-left"></span>
+      <p id="do_not_exist"></p>
+      <h2>Météo du jour</h2>
+      <div id="dayWeather">
+        <div id="weatherType"></div>
+      </div>
+      <h2>Prévisions à 3 jours</h2>
+      <div id="forecast">
+      </div>
+
+      <div id="custom-border-radius">
+        <a href="addCity.html" data-transition="slide" class="ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all"></a>
+      </div>
+    </div>
+
+    <div role="content" id="nofav">
+    Vous n'avez pas de favoris. <br/>
+    Utilisez le bouton "+" pour en ajouter.
+    <div id="custom-border-radius">
+      <a href="addCity.html" data-transition="slide" class="ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all"></a>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
